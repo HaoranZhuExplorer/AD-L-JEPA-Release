@@ -1,0 +1,43 @@
+CLASS_NAMES: ['Vehicle', 'Pedestrian', 'Cyclist']
+
+DATA_CONFIG: 
+    _BASE_CONFIG_: cfgs/dataset_configs/waymo_dataset.yaml
+
+
+MODEL:
+    NAME: AD_L_JEPA
+
+    VFE:
+        NAME: MeanVFE
+
+    BACKBONE_3D:
+        NAME: AD_L_JEPA
+        MASKED_RATIO: 0.5  # masked_ratio for AD_L_JEPA
+        ALPHA: 1.0  # alpha for AD_L_JEPA
+        BETA: 10.0  # beta for AD_L_JEPA
+
+
+OPTIMIZATION:
+    BATCH_SIZE_PER_GPU: 16
+    NUM_EPOCHS: 30
+
+    OPTIMIZER: adam_onecycle
+    LR: 0.0003
+    WEIGHT_DECAY: 0.01
+    MOMENTUM: 0.9
+
+    MOMS: [0.95, 0.85]
+    PCT_START: 0.4
+    DIV_FACTOR: 10
+    DECAY_STEP_LIST: [35, 45]
+    LR_DECAY: 0.1
+    LR_CLIP: 0.0000001
+
+    LR_WARMUP: False
+    WARMUP_EPOCH: 1
+
+    GRAD_NORM_CLIP: 10
+    
+    EMA:
+    - 0.996
+    - 1.0

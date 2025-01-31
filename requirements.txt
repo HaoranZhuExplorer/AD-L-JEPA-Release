@@ -1,0 +1,12 @@
+numpy
+llvmlite
+numba==0.58.1
+tensorboardX==2.6.2.2
+easydict
+pyyaml
+scikit-image==0.21.0
+tqdm
+torchvision
+SharedArray
+matplotlib
+scikit-learn==1.3.2
