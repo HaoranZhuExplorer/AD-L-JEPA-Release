@@ -14,11 +14,14 @@ Timelines:
 
 If this paper is helpful for you, you may consider cite it via:
 ```bibtex
-@article{zhu2025ad,
-  title={AD-L-JEPA: Self-Supervised Spatial World Models with Joint Embedding Predictive Architecture for Autonomous Driving with LiDAR Data},
-  author={Zhu, Haoran and Dong, Zhenyuan and Topollai, Kristi and Choromanska, Anna},
-  journal={arXiv preprint arXiv:2501.04969},
-  year={2025}
+@misc{zhu2025adljepa,
+      title={Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection}, 
+      author={Haoran Zhu and Zhenyuan Dong and Kristi Topollai and Beiyao Sha and Anna Choromanska},
+      year={2025},
+      eprint={2501.04969},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2501.04969}, 
 }
 ```
 
