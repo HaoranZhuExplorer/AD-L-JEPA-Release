@@ -9,7 +9,7 @@ Official source code repo for AD-L-JEPA: Self-Supervised Representation Learning
 Timelines:
 - [x] Initial commit
 - [x] Source code release by the end of January 2025
-- [ ] Make code more organized and release pretrained models by Nov 16th. 
+- [ ] Make code more organized and release pretrained models by Nov 17th. 
 
 
 If this paper is helpful for you, you may consider cite it via:
