@@ -27,10 +27,15 @@ If this paper is helpful for you, you may consider cite it via:
 
 
 ## Pre-trained Models, Tensorboard Logs
-AD-L-JEPA self-supervised pre-trained models:
-|       Dataset      |                           Weights & Tensorboard Logs                           |
-| :---------------: | :----------------------------------------------------------: |
-| KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1RbOyBm15gRLBsgFSIrPxSshC1daOob3n?usp=sharing) |
+Self-supervised pre-trained models with AD-L-JEPA:
+| Architecture |       Dataset      |                           Weights & Tensorboard Logs                           |
+| :---------------:| :---------------: | :----------------------------------------------------------: |
+| VoxelBackBone8x  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1RbOyBm15gRLBsgFSIrPxSshC1daOob3n?usp=sharing) |
+
+Supervised fine-tuned models after loading AD-L-JEPA SSL pre-trained weights:
+| Architecture |       Dataset      |                           Weights & Tensorboard Logs                           |
+| :---------------:| :---------------: | :----------------------------------------------------------: |
+| SECOND  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/14Z6mwwRjxRGb00b_YUHd7KWuZwVmZ8pG?usp=sharing) |
 
 ## Installation
 
