@@ -9,7 +9,7 @@ Official source code repo for AD-L-JEPA: Self-Supervised Representation Learning
 Timelines:
 - [x] Initial commit
 - [x] Source code release by the end of January 2025
-- [ ] Make code more organized and release pretrained models by Nov 17th (Sorry for 1 day's delay, I don't want to work on Sunday today:-) ). 
+- [x] Make code more organized and release pretrained models by Nov 17th, 2025. 
 
 
 If this paper is helpful for you, you may consider cite it via:
@@ -25,6 +25,12 @@ If this paper is helpful for you, you may consider cite it via:
 }
 ```
 
+
+## Pre-trained Models, Tensorboard Logs
+AD-L-JEPA self-supervised pre-trained models:
+|       Dataset      |                           Weights & Tensorboard Logs                           |
+| :---------------: | :----------------------------------------------------------: |
+| KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1RbOyBm15gRLBsgFSIrPxSshC1daOob3n?usp=sharing) |
 
 ## Installation
 
