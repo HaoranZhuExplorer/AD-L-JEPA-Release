@@ -36,6 +36,7 @@ Supervised fine-tuned models after loading AD-L-JEPA SSL pre-trained weights:
 | Architecture |       Dataset      |                           Weights & Tensorboard Logs                           |
 | :---------------:| :---------------: | :----------------------------------------------------------: |
 | SECOND  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/14Z6mwwRjxRGb00b_YUHd7KWuZwVmZ8pG?usp=sharing) |
+| PV-RCNN  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1XWz48Xr-0-8CRaMyIjoXgUALklkdX7Sw?usp=sharing) |
 
 ## Installation
 
