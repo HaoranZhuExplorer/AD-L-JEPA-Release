@@ -40,6 +40,10 @@ Supervised fine-tuned models after loading AD-L-JEPA SSL pre-trained weights:
 | :---------------:| :---------------: | :----------------------------------------------------------: |
 | SECOND  | KITTI3D  | [google_drive](https://drive.google.com/drive/folders/14Z6mwwRjxRGb00b_YUHd7KWuZwVmZ8pG?usp=sharing) |
 | PV-RCNN  | KITTI3D  | [google_drive](https://drive.google.com/drive/folders/1XWz48Xr-0-8CRaMyIjoXgUALklkdX7Sw?usp=sharing) |
+| SECOND  | ONCE (small, 100k)  | [google_drive](https://drive.google.com/drive/folders/1qMkrCtES-rhzYGOa8gzEsB_gEzpjWqyn?usp=sharing) |
+| SECOND  | ONCE (medium, 500k)  | [google_drive](https://drive.google.com/drive/folders/1JsdgHbgLule9T5G1hts-TiYYBfH6w_S0?usp=sharing) |
+
+
 
 ## Installation
 
