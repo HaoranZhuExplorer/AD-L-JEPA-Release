@@ -30,13 +30,16 @@ If this paper is helpful for you, you may consider cite it via:
 Self-supervised pre-trained models with AD-L-JEPA:
 | Architecture |       Dataset      |                           Weights & Tensorboard Logs                           |
 | :---------------:| :---------------: | :----------------------------------------------------------: |
-| VoxelBackBone8x  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1RbOyBm15gRLBsgFSIrPxSshC1daOob3n?usp=sharing) |
+| VoxelBackBone8x  | KITTI3D  | [google_drive](https://drive.google.com/drive/folders/1RbOyBm15gRLBsgFSIrPxSshC1daOob3n?usp=sharing) |
+| VoxelBackBone8x  | ONCE (small, 100k)  | [google_drive](https://drive.google.com/drive/folders/1vbBFu_UeStth7EIXzXsy9XTMwhzmUcgz?usp=sharing) |
+| VoxelBackBone8x  | ONCE (medium, 500k)  | [google_drive](https://drive.google.com/drive/folders/1hBz459khN--ng0w_LmRcoocu3H3bgrUk?usp=sharing) |
+| VoxelBackBone8x  | ONCE (large, 1M)  | [google_drive](https://drive.google.com/drive/folders/1n3dtbwK9jsB49XuxxOXZyk9H9z0Xb_E4?usp=sharing) |
 
 Supervised fine-tuned models after loading AD-L-JEPA SSL pre-trained weights:
 | Architecture |       Dataset      |                           Weights & Tensorboard Logs                           |
 | :---------------:| :---------------: | :----------------------------------------------------------: |
-| SECOND  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/14Z6mwwRjxRGb00b_YUHd7KWuZwVmZ8pG?usp=sharing) |
-| PV-RCNN  | KITTI3D  | [Google_drive](https://drive.google.com/drive/folders/1XWz48Xr-0-8CRaMyIjoXgUALklkdX7Sw?usp=sharing) |
+| SECOND  | KITTI3D  | [google_drive](https://drive.google.com/drive/folders/14Z6mwwRjxRGb00b_YUHd7KWuZwVmZ8pG?usp=sharing) |
+| PV-RCNN  | KITTI3D  | [google_drive](https://drive.google.com/drive/folders/1XWz48Xr-0-8CRaMyIjoXgUALklkdX7Sw?usp=sharing) |
 
 ## Installation
 
